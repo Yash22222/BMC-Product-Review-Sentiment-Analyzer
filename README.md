@@ -2,6 +2,10 @@
 
 This project performs **Web Scrapping** & **Sentiment Analysis** on verified Gartner reviews of popular **BMC Software Products**, using **Python NLP Techniques** and **Data Visualization**.
 
+BMC Product Review Scrapping & Sentiment Analysis is an open source project designed for performing sentiment analysis on customer reviews of BMC Software products scraped from public platforms like Gartner. It leverages Natural Language Processing (NLP) techniques and visualization tools to extract actionable insights from product reviews.
+
+This project is perfect for beginners and intermediate contributors who want hands-on experience with web scraping, NLP, data visualization, and open source collaboration.
+
 It includes:
 - Web scraping from [Gartner Peer Insights](https://www.gartner.com/reviews)
 - Preprocessing text with NLP
@@ -32,9 +36,9 @@ Visuals like pie charts and word clouds should be stored in the `outputs/` folde
 
 ---
 
-## Example Directory Structure
+## 📦 Example Directory Structure
    ```bash
-📦 BMC-Product-Review-Scrapping-and-Sentiment-Analysis/
+BMC-Product-Review-Scrapping-and-Sentiment-Analysis/
 │
 ├── 📂 data/                   # Sample scraped data files (Excel/CSV)
 ├── 📂 notebooks/             # Jupyter notebooks for quick experimentation
@@ -55,9 +59,8 @@ Visuals like pie charts and word clouds should be stored in the `outputs/` folde
 
 ---
 
-### IMP Features
+### 🧠 IMP Features
 
-🧠 Features
 1. Robust product review scraper for BMC products
 2. Clean text with:-
    Tokenization
@@ -68,6 +71,8 @@ Visuals like pie charts and word clouds should be stored in the `outputs/` folde
 4. Generate sentiment reports and dashboards
 5. Modularized structure for easy expansion and contributions
 6. Export analysis to Excel and visual graphs
+
+---
 
 ## 🚀 Tech Stack
 
