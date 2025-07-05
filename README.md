@@ -1,4 +1,4 @@
-# 🔍 BMC Product Review Scrapping & Sentiment Analysis
+# BMC Product Review Scrapping & Sentiment Analysis
 
 This project performs **Web Scrapping** & **Sentiment Analysis** on verified Gartner reviews of popular **BMC Software Products**, using **Python NLP Techniques** and **Data Visualization**.
 
@@ -32,6 +32,43 @@ Visuals like pie charts and word clouds should be stored in the `outputs/` folde
 
 ---
 
+## Example Directory Structure
+   ```bash
+📦 BMC-Product-Review-Scrapping-and-Sentiment-Analysis/
+│
+├── 📂 data/                   # Sample scraped data files (Excel/CSV)
+├── 📂 notebooks/             # Jupyter notebooks for quick experimentation
+├── 📂 scripts/
+│   ├── scraper.py            # Scraper module
+│   ├── nlp_preprocessing.py  # Text cleaning + POS + lemmatization
+│   ├── sentiment.py          # VADER-based sentiment scoring
+│   └── visualize.py          # Wordclouds, pie charts, bar graphs
+│
+├── 📂 outputs/               # Saved images, processed files
+│
+├── requirements.txt          # Install dependencies
+├── README.md                 # Project overview
+├── CONTRIBUTING.md           # Contribution guidelines
+├── LICENSE                   # Open-source license
+└── .gitignore
+   ```
+
+---
+
+### IMP Features
+
+🧠 Features
+1. Robust product review scraper for BMC products
+2. Clean text with:-
+   Tokenization
+   Lemmatization
+   POS Tagging
+   Stopword Removal
+3. Sentiment classification using VADER
+4. Generate sentiment reports and dashboards
+5. Modularized structure for easy expansion and contributions
+6. Export analysis to Excel and visual graphs
+
 ## 🚀 Tech Stack
 
 - **Python 3.x**
@@ -47,8 +84,8 @@ Visuals like pie charts and word clouds should be stored in the `outputs/` folde
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bmc-review-sentiment-analyzer.git
-cd bmc-review-sentiment-analyzer
+git clone https://github.com/YOUR_USERNAME/BMC-Product-Review-Scrapping-and-Sentiment-Analysis.git
+cd BMC-Product-Review-Scrapping-and-Sentiment-Analysis
 pip install -r requirements.txt
 ````
 
@@ -71,34 +108,20 @@ We welcome contributions from **GSSoC contributors and all open source enthusias
 2. **Clone** your fork
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/bmc-review-sentiment-analyzer.git
+   git clone https://github.com/YOUR_USERNAME/BMC-Product-Review-Scrapping-and-Sentiment-Analysis.git
    ```
-3. Create your feature branch
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. Commit your changes
+3. Commit your changes
 
    ```bash
    git commit -m "✨ Added sentiment model for XYZ"
    ```
-5. Push to your fork
+4. Push to your fork
 
    ```bash
    git push origin feature/your-feature-name
    ```
 6. Open a **Pull Request** with a clear explanation.
 
-### 🏷️ Good First Issues
-
-Check the [Issues tab](https://github.com/YOUR_USERNAME/bmc-review-sentiment-analyzer/issues) for tasks marked as:
-
-* `good first issue`
-* `documentation`
-* `feature request`
-
----
 
 ## 🧠 Contribution Ideas
 
