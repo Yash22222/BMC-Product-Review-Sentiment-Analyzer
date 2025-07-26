@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🤝 How to Contribute (for GSSoC'24)
+## 🤝 How to Contribute (for GSSoC'25)
 
 We welcome contributions from **GSSoC contributors and all open source enthusiasts**!
 
@@ -149,7 +149,6 @@ This project is licensed under the **MIT License**.
 
 ## 🙌 Credits
 
-* Built with ❤️ by [Yash Shirsath](https://www.linkedin.com/in/yash-shirsath-cr49/)
 * Proudly open for contributions under GSSoC 2025
 
 ```
