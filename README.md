@@ -89,7 +89,7 @@ BMC-Product-Review-Scrapping-and-Sentiment-Analysis/
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/BMC-Product-Review-Scrapping-and-Sentiment-Analysis.git
+git clone https://github.com/Yash22222/BMC-Product-Review-Scrapping-and-Sentiment-Analysis.git
 cd BMC-Product-Review-Scrapping-and-Sentiment-Analysis
 pip install -r requirements.txt
 ````
